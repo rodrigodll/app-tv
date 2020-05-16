@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  overflow: scroll;
+  &__group {
+    // display: flex;
+    width: 1720px;
+    overflow: scroll;
+    padding: 40px 0;
+  }
+  &__item {
+    width: 22%;
+    width: 300px;
+    height: 100vh;
+    max-height: 200px;
+    background: #000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.03));
+    margin-left: 40px;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    border: 0;
+    transition: all .15s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    &.amazon {
+      background: linear-gradient(0deg, #2196F3, rgba(255, 255, 255, 0.03));
+    }
+    &.hbo {
+      background: #fff;
+    }
+    &.globoplay {
+      background: #f91817;
+      img {
+        filter: brightness(20);
+      }
+    }
+
+    p {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(0deg, #54545452, transparent);
+      text-shadow: rgba(40, 43, 52, 0.3) 0 0 2px;
+      font-weight: 700;
+      margin: 0;
+      padding: 10px;
+      width: 92%;
+      height: 30px;
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+      line-height: 30px;
+      opacity: 0;
+    }
+
+    &:focus,
+    &:hover,
+    &.active {
+      outline: 0;
+      box-shadow: rgba(0, 0, 0, 0.5) 0 0 30px;
+      transform: scale(1.1);
+
+      p {
+        opacity: 1;
+      }
+    }
+  }
+  &__logo {
+    width: 100%;
+  }
+}
