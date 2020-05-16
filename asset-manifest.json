@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4816b7f.chunk.css",
-    "main.js": "/static/js/main.495f4e4b.chunk.js",
-    "main.js.map": "/static/js/main.495f4e4b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.74699e95.js",
-    "runtime-main.js.map": "/static/js/runtime-main.74699e95.js.map",
-    "static/js/2.89dc6f82.chunk.js": "/static/js/2.89dc6f82.chunk.js",
-    "static/js/2.89dc6f82.chunk.js.map": "/static/js/2.89dc6f82.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3a184583796e85c53d248e5e5413b712.js": "/precache-manifest.3a184583796e85c53d248e5e5413b712.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.b4816b7f.chunk.css.map": "/static/css/main.b4816b7f.chunk.css.map",
-    "static/js/2.89dc6f82.chunk.js.LICENSE.txt": "/static/js/2.89dc6f82.chunk.js.LICENSE.txt",
-    "static/media/amazon_prime_video_logo.svg": "/static/media/amazon_prime_video_logo.4674256c.svg",
-    "static/media/globoplay_logo.svg": "/static/media/globoplay_logo.c7bc32fd.svg",
-    "static/media/hbo_go_logo.svg": "/static/media/hbo_go_logo.f8e0ad67.svg",
-    "static/media/netflix_logo.svg": "/static/media/netflix_logo.6dbba458.svg"
+    "main.css": "/app-tv/static/css/main.b4816b7f.chunk.css",
+    "main.js": "/app-tv/static/js/main.744b5dd2.chunk.js",
+    "main.js.map": "/app-tv/static/js/main.744b5dd2.chunk.js.map",
+    "runtime-main.js": "/app-tv/static/js/runtime-main.3492a258.js",
+    "runtime-main.js.map": "/app-tv/static/js/runtime-main.3492a258.js.map",
+    "static/js/2.89dc6f82.chunk.js": "/app-tv/static/js/2.89dc6f82.chunk.js",
+    "static/js/2.89dc6f82.chunk.js.map": "/app-tv/static/js/2.89dc6f82.chunk.js.map",
+    "index.html": "/app-tv/index.html",
+    "precache-manifest.37272c17a77c9f5f06594b54335ca413.js": "/app-tv/precache-manifest.37272c17a77c9f5f06594b54335ca413.js",
+    "service-worker.js": "/app-tv/service-worker.js",
+    "static/css/main.b4816b7f.chunk.css.map": "/app-tv/static/css/main.b4816b7f.chunk.css.map",
+    "static/js/2.89dc6f82.chunk.js.LICENSE.txt": "/app-tv/static/js/2.89dc6f82.chunk.js.LICENSE.txt",
+    "static/media/amazon_prime_video_logo.svg": "/app-tv/static/media/amazon_prime_video_logo.4674256c.svg",
+    "static/media/globoplay_logo.svg": "/app-tv/static/media/globoplay_logo.c7bc32fd.svg",
+    "static/media/hbo_go_logo.svg": "/app-tv/static/media/hbo_go_logo.f8e0ad67.svg",
+    "static/media/netflix_logo.svg": "/app-tv/static/media/netflix_logo.6dbba458.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.74699e95.js",
+    "static/js/runtime-main.3492a258.js",
     "static/js/2.89dc6f82.chunk.js",
     "static/css/main.b4816b7f.chunk.css",
-    "static/js/main.495f4e4b.chunk.js"
+    "static/js/main.744b5dd2.chunk.js"
   ]
 }
