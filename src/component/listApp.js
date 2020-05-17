@@ -6,8 +6,8 @@ import logoTocom from '../svg/tocomsat_logo.png'
 
 export default [
 	{ logo: logoTocom, name: 'Tocom Play', url: 'ZK' },
-	{ logo: logoNetflix, name: 'Netflix', url: 'ZK' },
-	{ logo: logoGloboplay, name: 'Globoplay', url: '$' },
-	{ logo: logoAmazonprime, name: 'Amazon Prime', url: '$' },
-	{ logo: logoHbo, name: 'HBO Go', url: '$' }
+	{ logo: logoNetflix, name: 'Netflix', url: 'https://www.netflix.com/browse' },
+	{ logo: logoGloboplay, name: 'Globoplay', url: 'https://globoplay.globo.com/' },
+	{ logo: logoAmazonprime, name: 'Amazon Prime', url: 'https://www.amazon.com.br/b?ie=UTF8&node=16067150011' },
+	{ logo: logoHbo, name: 'HBO Go', url: 'https://www.hbogo.com.br/' }
 ]
