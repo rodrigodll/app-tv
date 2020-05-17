@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 
-import logoNetflix from '../svg/netflix_logo.svg'
-import logoGloboplay from '../svg/globoplay_logo.svg'
-import logoAmazonprime from '../svg/amazon_prime_video_logo.svg'
-import logoHbo from '../svg/hbo_go_logo.svg'
+// json de lista
+import listApp from './listApp'
 
 export default class Card extends Component {
 	constructor(props) {
@@ -12,43 +10,37 @@ export default class Card extends Component {
 		// Define valores iniciais
 		this.state = {
             name: '',
-            class: 'active'
+            data: listApp
+        }
+    }
+
+    onKeyPressed(e) {
+        if (e.keyCode === 37) {
+            e.preventDefault();
+            console.log(e.keyCode, 'left', this)
+        }
+
+        if (e.keyCode === 39) {
+            e.preventDefault();
+            console.log(e.keyCode, 'left', this)
         }
     }
     
 
     render() {
-        // let player = this.props.boards.dungeons[this.props.boards.currentBoard].player;
+        const renderCard = this.state.data.map(name => {
+            return(
+                <button className={'card__item '+ name.name.toLocaleLowerCase()}>
+                    <img src={name.logo} className="card__logo" alt={name.name} />
+                    <p>Abrir {name.name}</p>
+                </button>
+            )
+        })
 
         return (
-            
             <div className="card">
-                <input
-                    type="text"
-                    onKeyDown={this.handleKeyUp}
-                    onChange={this.handleChangeName}
-                />
-
                 <div className="card__group">
-                    <button className="card__item netflix">
-                        <img src={logoNetflix} className="card__logo" alt="Netflix" />
-                        <p>Abrir</p>
-                    </button>
-
-                    <button className="card__item amazon">
-                        <img src={logoAmazonprime} className="card__logo" alt="Amazon Prime" />
-                        <p>Abrir</p>
-                    </button>
-
-                    <button className="card__item globoplay">
-                        <img src={logoGloboplay} className="card__logo" alt="Globo Play" />
-                        <p>Abrir</p>
-                    </button>
-
-                    <button className="card__item hbo">
-                        <img src={logoHbo} className="card__logo" alt="Hbo Go" />
-                        <p>Abrir</p>
-                    </button>
+                    {renderCard}
                 </div>
             </div>
         )

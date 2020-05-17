@@ -1,0 +1,68 @@
+.player-topo {
+  padding: 0 5%;
+  float: left;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.player-topo h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.player-topo .button__back {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(33, 33, 33, 0.2);
+  border-radius: 80px;
+}
+.player-topo h3 {
+  margin: 0;
+}
+.player-topo h3 img {
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  filter: invert(1);
+}
+
+.player-rodape {
+  border-width: 5px;
+  z-index: 902;
+  position: fixed;
+  background: linear-gradient(0deg, #282c34, transparent);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 40px 20px 20px;
+  box-sizing: border-box;
+}
+.player-rodape .button {
+  margin: 0 10px;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  width: 30px;
+  padding: 0;
+}
+.player-rodape .button img {
+  width: 100%;
+  height: auto;
+  filter: invert(1);
+  opacity: 0.8;
+  transition: all 0.15s ease-in-out;
+}
+.player-rodape .button:focus {
+  outline: 0;
+}
+.player-rodape .button:hover img {
+  opacity: 1;
+}
+.player-rodape .fLeft {
+  float: left;
+}
+.player-rodape .fRight {
+  float: right;
+}
