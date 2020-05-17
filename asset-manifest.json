@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/app-tv/static/css/main.104de8fe.chunk.css",
-    "main.js": "/app-tv/static/js/main.76aaeb11.chunk.js",
-    "main.js.map": "/app-tv/static/js/main.76aaeb11.chunk.js.map",
+    "main.js": "/app-tv/static/js/main.240e1edd.chunk.js",
+    "main.js.map": "/app-tv/static/js/main.240e1edd.chunk.js.map",
     "runtime-main.js": "/app-tv/static/js/runtime-main.3492a258.js",
     "runtime-main.js.map": "/app-tv/static/js/runtime-main.3492a258.js.map",
     "static/js/2.008824dd.chunk.js": "/app-tv/static/js/2.008824dd.chunk.js",
     "static/js/2.008824dd.chunk.js.map": "/app-tv/static/js/2.008824dd.chunk.js.map",
     "index.html": "/app-tv/index.html",
-    "precache-manifest.a018d053baeb40bf0a630b419b3b077b.js": "/app-tv/precache-manifest.a018d053baeb40bf0a630b419b3b077b.js",
+    "precache-manifest.154b55068ff34cb94bffacedfe8204f9.js": "/app-tv/precache-manifest.154b55068ff34cb94bffacedfe8204f9.js",
     "service-worker.js": "/app-tv/service-worker.js",
     "static/css/main.104de8fe.chunk.css.map": "/app-tv/static/css/main.104de8fe.chunk.css.map",
     "static/js/2.008824dd.chunk.js.LICENSE.txt": "/app-tv/static/js/2.008824dd.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.3492a258.js",
     "static/js/2.008824dd.chunk.js",
     "static/css/main.104de8fe.chunk.css",
-    "static/js/main.76aaeb11.chunk.js"
+    "static/js/main.240e1edd.chunk.js"
   ]
 }
