@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75f9647bda89e62a3f1fecda23513d6c",
+    "revision": "7862684b6c774f0002645d09a3a6b947",
     "url": "/app-tv/index.html"
   },
   {
-    "revision": "843b23adae9fe9b1f8cc",
-    "url": "/app-tv/static/css/main.0c092f9a.chunk.css"
+    "revision": "453014e1ba3eb98c1fc7",
+    "url": "/app-tv/static/css/main.85cc33e9.chunk.css"
   },
   {
     "revision": "de4707fb0b87ea33e17d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/app-tv/static/js/2.008824dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "843b23adae9fe9b1f8cc",
+    "revision": "453014e1ba3eb98c1fc7",
     "url": "/app-tv/static/js/main.d9cbb47d.chunk.js"
   },
   {
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4674256cccbe34ecfc955010a0de3031",
     "url": "/app-tv/static/media/amazon_prime_video_logo.4674256c.svg"
+  },
+  {
+    "revision": "e1dd8b0dcc0e348ecdd555525ad98a81",
+    "url": "/app-tv/static/media/bg-retina.e1dd8b0d.jpg"
   },
   {
     "revision": "c7bc32fd6b6f76ff982bb0e2c28bc645",
