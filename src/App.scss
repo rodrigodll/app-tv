@@ -1,47 +1,37 @@
 .App {
-  text-align: center;
-}
+  padding: 0 5%;
+  position: relative;
+  z-index: 10;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  &__header {
+    padding: 40px 0 20px;
   }
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  &__title {
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+    padding: 10px 10px;
+    margin: 0 auto 20px;
   }
 }
 
 .card {
-  overflow: scroll;
+  // overflow: scroll;
   &__group {
     // display: flex;
-    width: 1720px;
-    overflow: scroll;
-    padding: 40px 0;
+    // width: 1720px;
+    // overflow: scroll;
+    // padding: 40px 0;
   }
   &__item {
-    width: 22%;
-    width: 300px;
+    width: calc(25% - 30px);
+    margin: 0 15px 30px;
     height: 100vh;
+    min-height: 300px;
     max-height: 200px;
     background: #000;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.03));
-    margin-left: 40px;
+    background: linear-gradient(0deg, #232323, #3e3e3e);
     padding: 3%;
     display: flex;
     align-items: center;
@@ -51,8 +41,13 @@
     overflow: hidden;
     display: inline-block;
     float: left;
+    &.tocom {
+      background: #0b4932;
+      background: linear-gradient(0deg, #0b4932, #17a96a);
+    }
     &.amazon {
-      background: linear-gradient(0deg, #2196F3, rgba(255, 255, 255, 0.03));
+      background: #3aacd1;
+      background: linear-gradient(0deg, #242f3e, #3c73bd);
     }
     &.hbo {
       background: #fff;
@@ -66,32 +61,39 @@
 
     p {
       position: absolute;
-      bottom: 0;
+      bottom: -10px;
       left: 0;
       background: linear-gradient(0deg, #54545452, transparent);
       text-shadow: rgba(40, 43, 52, 0.3) 0 0 2px;
       font-weight: 700;
       margin: 0;
       padding: 10px;
-      width: 92%;
+      width: 94%;
       height: 30px;
       color: white;
       font-size: 15px;
+      font-size: 1rem;
       text-transform: uppercase;
       line-height: 30px;
       opacity: 0;
+      transition: all .15s ease-in-out;
+      transform: scale(1, 0);
     }
 
-    &:focus,
-    &:hover,
-    &.active {
+    &:hover {
       outline: 0;
       box-shadow: rgba(0, 0, 0, 0.5) 0 0 30px;
       transform: scale(1.1);
+      z-index: 10;
 
       p {
         opacity: 1;
+        bottom: 0;
+        transform: scale(1);
       }
+    }
+    &:focus {
+      outline: 0;
     }
   }
   &__logo {
