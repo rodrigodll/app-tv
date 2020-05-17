@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdcf3b669d71bd76fe629809786eb327",
+    "revision": "0ecf2c1af3888255b42c560ed408a549",
     "url": "/app-tv/index.html"
   },
   {
-    "revision": "c36047b60fdfee5961c0",
-    "url": "/app-tv/static/css/main.b4816b7f.chunk.css"
+    "revision": "55b63d944de38e5edcf7",
+    "url": "/app-tv/static/css/main.104de8fe.chunk.css"
   },
   {
-    "revision": "f40c8586d8f4976863db",
-    "url": "/app-tv/static/js/2.89dc6f82.chunk.js"
+    "revision": "de4707fb0b87ea33e17d",
+    "url": "/app-tv/static/js/2.008824dd.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/app-tv/static/js/2.89dc6f82.chunk.js.LICENSE.txt"
+    "url": "/app-tv/static/js/2.008824dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c36047b60fdfee5961c0",
-    "url": "/app-tv/static/js/main.744b5dd2.chunk.js"
+    "revision": "55b63d944de38e5edcf7",
+    "url": "/app-tv/static/js/main.76aaeb11.chunk.js"
   },
   {
     "revision": "b0eafd02cad13fe62441",
