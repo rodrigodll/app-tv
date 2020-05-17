@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/app-tv/static/css/main.757ac62f.chunk.css",
-    "main.js": "/app-tv/static/js/main.07d4a7d5.chunk.js",
-    "main.js.map": "/app-tv/static/js/main.07d4a7d5.chunk.js.map",
+    "main.css": "/app-tv/static/css/main.3a26c78b.chunk.css",
+    "main.js": "/app-tv/static/js/main.270185cc.chunk.js",
+    "main.js.map": "/app-tv/static/js/main.270185cc.chunk.js.map",
     "runtime-main.js": "/app-tv/static/js/runtime-main.3492a258.js",
     "runtime-main.js.map": "/app-tv/static/js/runtime-main.3492a258.js.map",
-    "static/js/2.729e988d.chunk.js": "/app-tv/static/js/2.729e988d.chunk.js",
-    "static/js/2.729e988d.chunk.js.map": "/app-tv/static/js/2.729e988d.chunk.js.map",
+    "static/js/2.edcb4998.chunk.js": "/app-tv/static/js/2.edcb4998.chunk.js",
+    "static/js/2.edcb4998.chunk.js.map": "/app-tv/static/js/2.edcb4998.chunk.js.map",
     "index.html": "/app-tv/index.html",
-    "precache-manifest.759a0c783a5ce4ae7716fc7ab0b04af3.js": "/app-tv/precache-manifest.759a0c783a5ce4ae7716fc7ab0b04af3.js",
+    "precache-manifest.bba08ec28925adbc7c20bd881f53a41d.js": "/app-tv/precache-manifest.bba08ec28925adbc7c20bd881f53a41d.js",
     "service-worker.js": "/app-tv/service-worker.js",
-    "static/css/main.757ac62f.chunk.css.map": "/app-tv/static/css/main.757ac62f.chunk.css.map",
-    "static/js/2.729e988d.chunk.js.LICENSE.txt": "/app-tv/static/js/2.729e988d.chunk.js.LICENSE.txt",
-    "static/media/amazon_prime_video_logo.svg": "/app-tv/static/media/amazon_prime_video_logo.4674256c.svg",
-    "static/media/index.css": "/app-tv/static/media/bg-retina.e1dd8b0d.jpg",
-    "static/media/globoplay_logo.svg": "/app-tv/static/media/globoplay_logo.c7bc32fd.svg",
-    "static/media/hbo_go_logo.svg": "/app-tv/static/media/hbo_go_logo.f8e0ad67.svg",
-    "static/media/netflix_logo.svg": "/app-tv/static/media/netflix_logo.6dbba458.svg"
+    "static/css/main.3a26c78b.chunk.css.map": "/app-tv/static/css/main.3a26c78b.chunk.css.map",
+    "static/js/2.edcb4998.chunk.js.LICENSE.txt": "/app-tv/static/js/2.edcb4998.chunk.js.LICENSE.txt",
+    "static/media/back.svg": "/app-tv/static/media/back.77c86913.svg",
+    "static/media/index.css": "/app-tv/static/media/bg-gif.93651239.gif",
+    "static/media/fullscreen.svg": "/app-tv/static/media/fullscreen.8716acca.svg",
+    "static/media/google-cast.svg": "/app-tv/static/media/google-cast.b38f6bcb.svg",
+    "static/media/mute.svg": "/app-tv/static/media/mute.e0c09975.svg",
+    "static/media/volumeminus.svg": "/app-tv/static/media/volumeminus.1910c0db.svg",
+    "static/media/volumeplus.svg": "/app-tv/static/media/volumeplus.4215f7a5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3492a258.js",
-    "static/js/2.729e988d.chunk.js",
-    "static/css/main.757ac62f.chunk.css",
-    "static/js/main.07d4a7d5.chunk.js"
+    "static/js/2.edcb4998.chunk.js",
+    "static/css/main.3a26c78b.chunk.css",
+    "static/js/main.270185cc.chunk.js"
   ]
 }
